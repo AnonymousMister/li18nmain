@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" stylesheets="@../gulCss/MainLayout.css" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.li18n.gui.MainLayoutController">
+   <children>
+      <JFXButton fx:id="mButton" layoutX="534.0" layoutY="359.0" mnemonicParsing="false" onAction="#onButtonClick" text="确定" />
+      <JFXButton fx:id="Button" layoutX="456.0" layoutY="359.0" mnemonicParsing="false" text="取消" />
+      <Label layoutX="35.0" layoutY="65.0" text="正则表达式：" />
+      <TextField fx:id="Label" layoutX="115.0" layoutY="60.0" prefHeight="27.0" prefWidth="216.0" text="Label" />
+      <Label layoutX="14.0" layoutY="114.0" text="国际化的自增值" />
+      <TextField fx:id="Label" layoutX="115.0" layoutY="109.0" prefHeight="27.0" prefWidth="78.0" promptText="前错" />
+      <Label layoutX="205.0" layoutY="114.0" text="-" />
+      <TextField fx:id="Label" layoutX="223.0" layoutY="109.0" prefHeight="27.0" prefWidth="149.0" promptText="前错" />
+   </children>
+</AnchorPane>
